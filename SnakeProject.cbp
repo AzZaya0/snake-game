@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SnakeProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SnakeProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SnakeProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../2D-Snake-Game/src/AssetMan.cpp" />
+		<Unit filename="../../2D-Snake-Game/src/Game.cpp" />
+		<Unit filename="../../2D-Snake-Game/src/GameOver.cpp" />
+		<Unit filename="../../2D-Snake-Game/src/GamePlay.cpp" />
+		<Unit filename="../../2D-Snake-Game/src/MainMenu.cpp" />
+		<Unit filename="../../2D-Snake-Game/src/PauseGame.cpp" />
+		<Unit filename="../../2D-Snake-Game/src/Snake.cpp" />
+		<Unit filename="../../2D-Snake-Game/src/StateMan.cpp" />
+		<Unit filename="../../2D-Snake-Game/src/main.cpp" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="include/AssetMan.hpp" />
+		<Unit filename="include/Game.hpp" />
+		<Unit filename="include/GameOver.hpp" />
+		<Unit filename="include/GamePlay.hpp" />
+		<Unit filename="include/MainMenu.hpp" />
+		<Unit filename="include/PauseGame.hpp" />
+		<Unit filename="include/Snake.hpp" />
+		<Unit filename="include/State.hpp" />
+		<Unit filename="include/StateMan.hpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

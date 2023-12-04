@@ -1,0 +1,96 @@
+# depslib dependency file v1.0
+1693997580 source:/home/ayush/Music/2D-Snake-Game/src/AssetMan.cpp
+	"AssetMan.hpp"
+
+1693997580 /home/ayush/Music/snakeee/SnakeProject/include/AssetMan.hpp
+	<map>
+	<memory>
+	<string>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Font.hpp>
+
+1693997580 source:/home/ayush/Music/2D-Snake-Game/src/Game.cpp
+	<SFML/Graphics/CircleShape.hpp>
+	"Game.hpp"
+	"MainMenu.hpp"
+
+1693997580 /home/ayush/Music/snakeee/SnakeProject/include/Game.hpp
+	<memory>
+	<SFML/Graphics/RenderWindow.hpp>
+	"AssetMan.hpp"
+	"StateMan.hpp"
+
+1693997580 /home/ayush/Music/snakeee/SnakeProject/include/StateMan.hpp
+	<stack>
+	<memory>
+	<State.hpp>
+
+1693997580 /home/ayush/Music/snakeee/SnakeProject/include/State.hpp
+	<SFML/System/Time.hpp>
+
+1693997580 /home/ayush/Music/snakeee/SnakeProject/include/MainMenu.hpp
+	<memory>
+	<SFML/Graphics/Text.hpp>
+	"State.hpp"
+	"Game.hpp"
+
+1693997580 source:/home/ayush/Music/2D-Snake-Game/src/GameOver.cpp
+	"GameOver.hpp"
+	"GamePlay.hpp"
+	<SFML/Window/Event.hpp>
+
+1693997580 /home/ayush/Music/snakeee/SnakeProject/include/GameOver.hpp
+	<memory>
+	<SFML/Graphics/Text.hpp>
+	"State.hpp"
+	"Game.hpp"
+
+1693997580 /home/ayush/Music/snakeee/SnakeProject/include/GamePlay.hpp
+	<memory>
+	<array>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	"Game.hpp"
+	"State.hpp"
+	"Snake.hpp"
+
+1693997580 /home/ayush/Music/snakeee/SnakeProject/include/Snake.hpp
+	<list>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1693999007 source:/home/ayush/Music/2D-Snake-Game/src/GamePlay.cpp
+	"GamePlay.hpp"
+	"GameOver.hpp"
+	"PauseGame.hpp"
+	<SFML/Window/Event.hpp>
+	<stdlib.h>
+	<time.h>
+
+1693997580 /home/ayush/Music/snakeee/SnakeProject/include/PauseGame.hpp
+	<memory>
+	<SFML/Graphics/Text.hpp>
+	"State.hpp"
+	"Game.hpp"
+
+1693997580 source:/home/ayush/Music/2D-Snake-Game/src/main.cpp
+	"Game.hpp"
+
+1693997580 source:/home/ayush/Music/2D-Snake-Game/src/MainMenu.cpp
+	"MainMenu.hpp"
+	"GamePlay.hpp"
+	<SFML/Window/Event.hpp>
+
+1693997580 source:/home/ayush/Music/2D-Snake-Game/src/PauseGame.cpp
+	"PauseGame.hpp"
+	<SFML/Window/Event.hpp>
+
+1693997580 source:/home/ayush/Music/2D-Snake-Game/src/Snake.cpp
+	"Snake.hpp"
+
+1693997580 source:/home/ayush/Music/2D-Snake-Game/src/StateMan.cpp
+	"StateMan.hpp"
+
